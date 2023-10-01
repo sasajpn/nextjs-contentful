@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import contentfulClient from "@/lib/contentful";
-import BlogRichText from "@/lib/RichText";
+import RichText from "@/lib/RichText";
 
 export async function generateStaticParams() {
   const entries = await contentfulClient.getEntries({
@@ -33,7 +33,7 @@ export default async function BlogPage({ params }) {
           priority
         />
         <div>
-          <BlogRichText body={body} />
+          <RichText document={body} />
         </div>
       </article>
     </main>
