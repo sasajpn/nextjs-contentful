@@ -1,0 +1,71 @@
+.blogContent {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blogContent h1,
+.blogContent h2,
+.blogContent h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.blogContent h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #ddd;
+}
+
+.blogContent h2 {
+  font-size: 1.75em;
+}
+
+.blogContent h3 {
+  font-size: 1.5em;
+}
+
+.blogContent a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.blogContent a:hover {
+  text-decoration: underline;
+}
+
+.blogContent img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.blogContent p {
+  margin-bottom: 1.5em;
+}
+
+.blogContent ul {
+  margin: 1.5em 0;
+  padding-left: 1.5em;
+  list-style-type: disc;
+}
+
+.blogContent ul ul {
+  list-style-type: circle;
+}
+
+.blogContent ol {
+  margin: 1.5em 0;
+  padding-left: 1.5em;
+  list-style-type: decimal;
+}
+
+.blogContent ol ol {
+  list-style-type: lower-alpha;
+}
+
+.blogContent li {
+  margin-bottom: 0.5em;
+}
